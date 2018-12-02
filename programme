@@ -1,0 +1,24 @@
+#Programme qui permet d'extraire des données d'un fichier csv (mode lecture) pour les injecter
+# dans un nouveau fichier csv généré en python (mode écriture)
+
+import csv
+
+with open('sirc.csv', 'r') as origin:
+    csv_reader = csv.reader(origin, delimiter=";")
+
+    with open('resultat.csv', 'w') as destination:
+        csv_writer = csv.writer(destination, delimiter=";")
+
+        for line in csv_reader:
+            del line[2:]
+            csv_writer.writerow(line)
+
+
+
+# Option: à l'aide d'un dictionnaire
+
+#csvfile = open("sirc.csv","r")
+#    reader = csv.DictReader(csvfile, delimiter=";")
+#for row in reader:
+#   print(row['SIREN'], row['NIC'])
+
