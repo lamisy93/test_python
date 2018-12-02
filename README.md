@@ -2,7 +2,7 @@
 
 Durée de la lecture et de l'écriture d'un fichier csv en python : moins de 10 min
 
-Durée des recherches dans la doc (+ tuto) et du débuggage pour résoudre le problème que je rencontrais sur mon premier code test : plus d'1h environ
+Durée des recherches dans la doc (+ tuto) et du débuggage pour résoudre le problème que je rencontrais sur mon premier code test : 1h environ
 
 Difficultés rencontrées au niveau de l'affichage de toutes les valeurs des champs Siren et NIC dans le fichier resultat.csv. 
 Je rencontrais des problèmes dans ma boucle for qui affichait uniquement les champs Siren;NIC ainsi que la dernière ligne de ces deux colonnes [row[0], row[1]]. 
