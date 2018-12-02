@@ -1,6 +1,7 @@
 # test_python
 
 Durée de la lecture et de l'écriture d'un fichier csv en python : moins de 10 min
+
 Durée des recherches dans la doc (+ tuto) et du débuggage pour résoudre mon problème rencontré sur mon premier code test : plus d'1h environ
 
 Difficultés rencontrées au niveau de l'affichage de toutes les valeurs des champs Siren et NIC dans le fichier resultat.csv. 
